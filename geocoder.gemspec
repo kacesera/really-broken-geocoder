@@ -4,12 +4,12 @@ require 'date'
 require "geocoder/version"
 
 Gem::Specification.new do |s|
-  s.name        = "geocoder"
+  s.name        = "really-broken-geocoder"
   s.required_ruby_version = '>= 2.0.0'
   s.version     = Geocoder::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Alex Reisner"]
-  s.email       = ["alex@alexreisner.com"]
+  s.authors     = ["Alex Reisner", "Lindsey Dew", "Daniel Le Dosquet-Bergquist"]
+  s.email       = ["dev@makersacademy.com"]
   s.homepage    = "http://www.rubygeocoder.com"
   s.date        = Date.today.to_s
   s.summary     = "Complete geocoding solution for Ruby."
